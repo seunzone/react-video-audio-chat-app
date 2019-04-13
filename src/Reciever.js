@@ -1,14 +1,9 @@
 import React, { Component } from 'react'
 import { CometChat } from '@cometchat-pro/chat';
-import config from './config';
 
 export default class componentName extends Component {
-    componentDidMount(){
-       CometChat.init(config.appID)
-       CometChat.login(config.agentUIDReciever, config.apiKey, config.authTokenReciever)
-    }
     recieveCall(){
-        const listnerID = "SUPERHERO2";
+        const listnerID = "SUPERHERO1";
         CometChat.addCallListener(
             listnerID,
             new CometChat.CallListener({

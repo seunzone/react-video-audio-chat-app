@@ -9,8 +9,8 @@ import App from './App';
 
 import { CometChat } from '@cometchat-pro/chat';
 import config from './config';
-
-// CometChat.init(config.appID)
+CometChat.init(config.appID)
+CometChat.login(config.agentUID, config.apiKey)
 
 // CometChat.init(config.appID).then(
 //   () => {

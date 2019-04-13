@@ -1,5 +1,6 @@
 const config = {
     appID: 'YourAppID',
+    agentUID: 'SUPERHERO1',
     agentUIDCaller: 'SUPERHERO1',
     agentUIDReciever: 'SUPERHERO2',
     apiKey: 'Your API Key',
